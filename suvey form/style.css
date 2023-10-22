@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: #ffb75e;
+    margin-top: 2%;
+    
+  }
+  
+  .top {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    overflow: hidden;
+    box-shadow: 5px 5px 5px 5px rgb(206, 44, 71);
+  }
+  
+ 
+  
+  form {
+    padding: 30px 40px;
+  }
+  
+  .input-group {
+    margin-bottom: 7px;
+    padding-bottom: 10px;
+    position: relative;
+  }
+  
+  .input-groupl label {
+    display: inline-block;
+    margin-bottom: 7px;
+    
+  }
+  
+  .input-group input {
+    border: 2px solid #f0f0f0;
+    border-radius: 6px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    outline-color: #f37335;
+  }
+  .gender{
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+  .input-group input, .gender input:hover{
+    cursor: pointer;
+  }
+  
+  
+  
+  .button-group button{
+    background-color: #f37335;
+    border: 2px solid;
+    border-radius: 4px;
+    color: #eee;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: bold;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .button button{
+    background-color: #8d2cfb;
+    border: 2px solid;
+    border-radius: 4px;
+    color: #eee;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .button-group button:hover{
+    color: rgb(233, 232, 232);
+    background-color: green;
+    border-color: #f37335;
+    transform: scale(1.1);
+    
+  }
+  .button button:hover{
+    color: rgb(233, 232, 232);
+    background-color: rgb(201, 9, 9);
+    border-color: #8d2cfb;
+    transform: scale(1.1);
+    
+  }
+  
+
+  .popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    overflow: auto;
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
